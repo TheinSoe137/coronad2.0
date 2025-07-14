@@ -19,7 +19,21 @@ export default function Loader() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-black overflow-none">
-      <AnimatePresence>
+      <AnimatePresence className="hidden md:block">
+        {!animateOut && (
+          <motion.img
+            key="logo"
+            src={loaderImg}
+            alt="Loader-image"
+            initial={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0.5, scale: 1.5}}
+            transition={{ duration: 3 }}
+            className="w-[100%] max-w-[100vw] h-auto max-h-[100vh]"
+
+          />
+        )}
+      </AnimatePresence>
+       <AnimatePresence className="md:hidden">
         {!animateOut && (
           <motion.img
             key="logo"
