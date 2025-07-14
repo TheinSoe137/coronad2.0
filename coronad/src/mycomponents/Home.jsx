@@ -7,12 +7,15 @@ import { Vortex } from '../components/ui/vortex'
 import magicshop from "../assets/magicshop.jpg"
 import { motion } from 'framer-motion'
 const containerVariants = {
-  hidden: {},
+  hidden: { opacity: 0, y: 50 },
   visible: {
+    opacity: 1,
+    y: 0,
     transition: {
+      when: "beforeChildren",
       staggerChildren: 0.8,
-    },
-  },
+    }
+  }
 };
 
 const childVariants = {
