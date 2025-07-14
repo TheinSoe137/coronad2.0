@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Home from "./Home";
 import loaderImg from '../assets/gatedesktop.png';
+import gatemobileImg from '../assets/gatemobile.png';
 export default function Loader() {
   const navigate = useNavigate();
   const [animateOut, setAnimateOut] = useState(false);
@@ -37,7 +38,7 @@ export default function Loader() {
         {!animateOut && (
           <motion.img
             key="logo"
-            src={loaderImg}
+            src={gatemobileImg}
             alt="Loader-image"
             initial={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0.5, scale: 1.5}}
