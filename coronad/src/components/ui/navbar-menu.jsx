@@ -29,7 +29,7 @@ export const MenuItem = ({
       {active !== null && (
         <motion.div
           initial={{ opacity: 0, scale: 0.85, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
+          animate={{ opacity: 1, scale: 0.85, y: 0 }}
           transition={transition}>
           {active === item && (
             <div
@@ -42,7 +42,7 @@ export const MenuItem = ({
                 <motion.div
                   
                   layout
-                  className="w-max h-full p-4">
+                  className=" p-4">
                   {children}
                 </motion.div>
               </motion.div>
@@ -66,8 +66,8 @@ export const Menu = ({
         relative rounded-lg md:rounded-full border border-transparent dark:bg-black/70 dark:border-white/[0.2]
         backdrop-blur-md bg-white shadow-input
         flex justify-center text-center
-        items-center space-x-2
-        px-0 md:px-2 py-3 
+        items-center 
+       
         overflow-x-auto scrollbar-hide
       
       "
@@ -110,7 +110,7 @@ export const HoveredLink = ({
   return (
     <a
       {...rest}
-      className="p-0 md:p-2 text-neutral-200  hover:text-neutral-500 ">
+      className="p-0 flex-1 md:p-2 text-xs md:text-sm text-neutral-200  hover:text-neutral-500 ">
       {children}
     </a>
   );
