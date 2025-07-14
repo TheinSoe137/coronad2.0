@@ -17,12 +17,14 @@ export default function Navbar({
          <HoveredLink href="/character-showcase">Character Showcase</HoveredLink>
         
             <HoveredLink href="/relics">Relics</HoveredLink>
-           <HoveredLink href="/roadmap">Roadmap</HoveredLink>
+           <HoveredLink href="/roadmap" >Roadmap</HoveredLink>
             
         
-        <HoveredLink href="/socials">Socials</HoveredLink>
-        <HoveredLink href="/comics-faq">Comic Business FAQ</HoveredLink>
+        <HoveredLink href="/socials" >Socials</HoveredLink>
+        <HoveredLink href="/comics-faq"  >Comic Business FAQ</HoveredLink>
+       
       </Menu>
+       
     </div>
   );
 }

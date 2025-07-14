@@ -8,6 +8,7 @@ import Roadmap from "./mycomponents/Roadmap";
 import Socials from "./mycomponents/Socials";
 import Hero from "./mycomponents/Home";
 import Relics from "./mycomponents/Relics";
+import ComicBusinessFAQ from "./mycomponents/ComicBusinessFAQ";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/relics" element={<Relics />} />
         <Route path="/Socials" element={<Socials />} />
+        <Route path="/comics-faq" element={<ComicBusinessFAQ/>} />
       </Routes>
     </Router>
   );
