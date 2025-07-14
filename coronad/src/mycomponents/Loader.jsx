@@ -29,7 +29,7 @@ export default function Loader() {
             initial={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0.5, scale: 1.5}}
             transition={{ duration: 3 }}
-            className="w-[100%] max-w-[100vw] h-auto max-h-[100vh]"
+            className="hidden md:block w-[100%] max-w-[100vw] h-auto max-h-[100vh]"
 
           />
         )}
@@ -43,7 +43,7 @@ export default function Loader() {
             initial={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0.5, scale: 1.5}}
             transition={{ duration: 3 }}
-            className="w-[100%] max-w-[100vw] h-auto max-h-[100vh]"
+            className="md:hidden w-[100%] max-w-[100vw] h-auto max-h-[100vh]"
 
           />
         )}
