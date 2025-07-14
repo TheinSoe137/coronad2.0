@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+h1, h2, h3  {
+  background: linear-gradient(to bottom, #fafafa, #a3a3a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+body {
+background: #743CB7;
+background: linear-gradient(90deg, rgba(116, 60, 183, 1) 0%, rgba(26, 24, 24, 1) 100%);
+}
+.h2 {
+ font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+p{
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight:400;
+  font-style: normal;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.edu-nsw-act-hand-pre {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
