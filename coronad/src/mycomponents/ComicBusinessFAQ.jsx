@@ -11,7 +11,7 @@ export default function ComicBusinessFAQ() {
       title: "1. What is the Coronad Comic Business?",
       content: (
         <div>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Coronad is creating a new model for comic publishing, one that
             blends traditional storytelling with NFT ownership and
             community-powered story evolution. Our comics live inside the
@@ -28,12 +28,12 @@ export default function ComicBusinessFAQ() {
           <h3 className="text-xl font-semibold mb-4">
             NFT-Integrated Storytelling
           </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Characters, traits, and items from NFT collections directly affect
             comic plots.
           </p>
           <h3 className="text-xl font-semibold mb-4">
-            NFT-Integrated Storytelling
+           Living Universe
           </h3>
           <ul className="text-white list-disc pl-4 text-sm md:text-base">
             <li>
@@ -55,19 +55,19 @@ export default function ComicBusinessFAQ() {
       content: (
         <div>
           <h3 className="text-xl font-semibold mb-4">Digital Comic Sales </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Comics may be released as collectible NFTs or on Web3-native comic
             platforms
           </p>
           <h3 className="text-xl font-semibold mb-4">
             Future Print Publishing{" "}
           </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Select arcs or legendary issues may be published physically as
             collector editions.
           </p>
           <h3 className="text-xl font-semibold mb-4">Merch & Licensing </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Characters, storylines, and relics will expand into physical
             merchandise and external IP deals.
           </p>
@@ -78,7 +78,7 @@ export default function ComicBusinessFAQ() {
       title: "4. Who creates the comics?",
       content: (
         <div>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             The Coronad core team leads production with:
           </p>
 
@@ -103,18 +103,18 @@ export default function ComicBusinessFAQ() {
           <h3 className="text-xl font-semibold mb-4">
             PFP Traits = Comic Identity
           </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Rare runes, relics, weapons, or sigils on your NFT may appear in
             official comic panels.
           </p>
           <h3 className="text-xl font-semibold mb-4">
             Relic Airdrops = Plot Devices
           </h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Special NFTs might unlock secret storylines or change outcomes.
           </p>
           <h3 className="text-xl font-semibold mb-4">Holder Influence</h3>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Select holders will be able to vote or guide future story arcs
             through council roles or relic systems.
           </p>
@@ -125,16 +125,16 @@ export default function ComicBusinessFAQ() {
       title: "6. Can I publish with Coronad Comics?",
       content: (
         <div>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Yes! in the future, creators will be able to submit stories to be
             part of the Coroverse Canon or Legends series:
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Canon Arcs - Reviewed and approved by the Lore Team
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Legends - Non-canon stories created by fans and contributors,
             clearly labeled as side tales.
           </p>
@@ -145,20 +145,20 @@ export default function ComicBusinessFAQ() {
       title: "7. Is Coronad Comics just for Web3 readers?",
       content: (
         <div>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             No. Coronad is designed to reach:
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Web3 holders - who want ownership, narrative control, and unique
             drops
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Traditional comic fans - via future print editions and public comic
             portals.
           </p>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Digital-native readers - via collectible comic NFTs, viewable across
             platforms
           </p>
@@ -169,19 +169,19 @@ export default function ComicBusinessFAQ() {
       title: "8. How can holders benefit from Coronad Comics?",
       content: (
         <div>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
            Exclusive Access to special comic chapters
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
            Character Cameos - your PFP or relic might appear in official lore
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Permanent Upgrades - owning relics can change how your NFTs evolve
 
           </p>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Creator Credit - long-term holders may be featured in credits or even co-write future arcs
           </p>
         </div>
@@ -193,16 +193,16 @@ export default function ComicBusinessFAQ() {
         <div>
           
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
           Short-form comics - Monthly, starting after the mainnet mint
           </p>
 
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base lg:text-lg font-normal text-neutral-200 ">
             Full arcs / volumes - Every 2–3 months
 
 
           </p>
-          <p className="mb-8  text-lg font-normal text-neutral-200 ">
+          <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
           Special editions & crossovers - Released as airdrops or seasonal drops
           </p>
         </div>
