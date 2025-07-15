@@ -122,14 +122,14 @@ const fadeVariants = {
 export default function ComicBusinessFAQ() {
   return (<>
     <Navbar/>
-    <section className="bg-parchment bg-cover bg-center text-gold py-16 px-6 font-serif">
+    <section className="bg-parchment bg-cover bg-center py-16 px-6 font-serif mx-auto">
       {/* Heading */}
-      <div className="max-w-4xl mx-auto text-center m-8 md:m-16">
+      <div className="max-w-4xl mx-auto space-y-12 m-12">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-3xl font-bold tracking-wide uppercase"
+          className="text-3xl text-center md:text-3xl font-bold tracking-wide uppercase"
         >
           Coronad Comic Business FAQ
         </motion.h1>
@@ -149,10 +149,7 @@ export default function ComicBusinessFAQ() {
             className="relative pl-10"
           >
             {/* Icon */}
-            <span className="absolute left-0 top-1 text-2xl select-none">
-              {phase.icon}
-            </span>
-
+      
             {/* Phase Title */}
             <h2 className="text-xl md:text-2xl font-bold uppercas mb-1">
               {phase.title}
