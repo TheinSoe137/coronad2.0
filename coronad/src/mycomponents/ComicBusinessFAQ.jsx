@@ -100,20 +100,20 @@ export default function ComicBusinessFAQ() {
       title: "5. How do NFTs affect the comic storyline?",
       content: (
         <div>
-          <h3 className="text-xl font-semibold mb-4">
+          <h3 className="text-xl font-semibold">
             PFP Traits = Comic Identity
           </h3>
           <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Rare runes, relics, weapons, or sigils on your NFT may appear in
             official comic panels.
           </p>
-          <h3 className="text-xl font-semibold mb-4">
+          <h3 className="text-xl font-semibold ">
             Relic Airdrops = Plot Devices
           </h3>
           <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Special NFTs might unlock secret storylines or change outcomes.
           </p>
-          <h3 className="text-xl font-semibold mb-4">Holder Influence</h3>
+          <h3 className="text-xl font-semibold">Holder Influence</h3>
           <p className="mb-2 text-sm  md:text-base  lg:text-lg font-normal text-neutral-200 ">
             Select holders will be able to vote or guide future story arcs
             through council roles or relic systems.
