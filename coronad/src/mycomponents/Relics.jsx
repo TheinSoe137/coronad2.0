@@ -25,26 +25,27 @@ export default function Relics() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                 Introducing the <span className="text-yellow-300">Eye of Dreamers</span>
               </h2>
-                <img
+              <img
                 src={eyeofdreamermobile}
                 alt={eyeofdreamer}
                 className="md:hidden m-auto mb-5 items-center max-w-full h-auto rounded-lg shadow-2xl"
-                style={{ maxWidth: '150px' }} 
+                style={{ maxWidth: '150px' }}
               />
-              <p className="text-md md:text-2xl mb-6 opacity-90">A rare 66 NFTs collection forged for those attuned to secrets, visions, and forgotten truths. 
-
-Not all who see are awake. Not all who sleep are blind
+              <p className="text-md md:text-2xl mb-6 opacity-90">
+                A rare 66 NFTs collection forged for those attuned to secrets, visions, and forgotten truths. 
+                <br />
+                Not all who see are awake. Not all who sleep are blind
               </p>
-              <button className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-300 transition-colors duration-300 shadow-lg">
-               Explore More
-              </button>
+              <a
+                href="https://coronad.substack.com/p/eyes-of-the-dreamer"
+                target="_blank"
+                className="inline-block bg-yellow-400 text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-300 transition-colors duration-300 shadow-lg"
+              >
+                Explore More
+              </a>
             </div>
-
-           
           </div>
         </section>
-
-      
       </main>
     </>
   );

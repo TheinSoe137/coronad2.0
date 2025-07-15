@@ -8,16 +8,19 @@ const progressItems = [
     title: "Scroll of Coronation",
     description: "Created by the High Seers of Elarien and blessed by the last flame of the Elder Crown, the scroll contains the true names and hidden fates of those worthy to rule, unworthy to lead, or chosen to guide from the shadows.",
     image: SOCImg,
+    link: "https://magiceden.io/collections/monad-testnet/0x4fcf36ac3d46ef5c3f91b8e3714c9bfdb46d63a3",
   },
   {
     title: "Solstrike ",
     description: "When the skies bled gold and the twin suns collapsed into one, a final flare was captured by the ancient mages of Virellion, the high city of mirrors and light. From that dying burst of celestial fire, they forged Solstrike, a relic not of heat or flame, but of radiant judgment.",
     image: gtdImg,
+    link: "https://magiceden.io/item-details/monad-testnet/0x7260fe3d8f5b2accde605852423a902d7f5314ce/9",
   },
     {
     title: "Seal Stones",
     description: "The shard is not just a fragment of rock, it pulses faintly with earthsong, the raw resonance of the world itself. It remembers. It resists. It grants no direct magic, no flashes of power. But in battle, its bearer stands where others fall. They become a wall between ruin and redemption, forged by Queen Elarians herself.",
     image: sealstoneImg,
+    link:"https://magiceden.io/item-details/monad-testnet/0x7260fe3d8f5b2accde605852423a902d7f5314ce/703"
   }
 ];
 
@@ -68,8 +71,9 @@ export default function ProgressSection() {
                 alt={item.title}
                 className="w-150 md:w-50 md:h-50 lg:w-full lg:h-100 object-cover rounded-md mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
-              <p className=" text-sm md:text-md  text-gray-300 ">{item.description}</p>
+              <a   href={item.link}
+                target="_blank"className="text-2xl font-semibold mb-2 underline">{item.title}</a>
+              <p className=" text-sm md:text-md mt-2 text-gray-300 ">{item.description}</p>
             </motion.div>
           ))}
         </motion.div>
