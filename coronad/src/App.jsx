@@ -4,7 +4,7 @@ import Loader from "./mycomponents/Loader";
 
 import "./index.css";
 import ArtGallery from "./mycomponents/ArtGallery";
-import Roadmap from "./mycomponents/Roadmap";
+import NewRoadmap from "./mycomponents/NewRoadmap";
 import Socials from "./mycomponents/Socials";
 import Hero from "./mycomponents/Home";
 import Relics from "./mycomponents/Relics";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Loader />} />
         <Route path="/home" element={<Hero />} />
         <Route path="/character-showcase" element={<ArtGallery />} />
-        <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/roadmap" element={<NewRoadmap />} />
         <Route path="/relics" element={<Relics />} />
         <Route path="/Socials" element={<Socials />} />
         <Route path="/comics-faq" element={<ComicBusinessFAQ/>} />
