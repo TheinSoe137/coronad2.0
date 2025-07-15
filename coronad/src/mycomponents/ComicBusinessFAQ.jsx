@@ -7,7 +7,7 @@ const phases = [
     icon: "✅", // Completed icon
     title: "1. What is the Coronad Comic Business?",
     subtitle: [""],
-    tagline: "xxxxxxxx",
+    tagline: "",
     bullets: [
       "Coronad is creating a new model for comic publishing, one that blends traditional storytelling with NFT ownership and community-powered story evolution. Our comics live inside the Coroverse, a dynamic lore universe where storylines are influenced by relics, traits, and character arcs held by our collectors."
     ],

@@ -2,20 +2,7 @@
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 
-/**
- * Coronad Roadmap Section
- * ------------------------------------------------------
- * - Dark parchment‑style background
- * - Gold serif headings, off‑white body text
- * - Animated fade‑in for each phase (optional)
- *
- * Tailwind prerequisites:
- * ------------------------------------------------------
- * 1. Add the Google font "Crimson Text" or another serif in index.html or @import.
- * 2. Ensure the following colours exist in your Tailwind config, or replace with your own:
- *    gold:  #d4c18a   (text-gold)
- *    parchment: #1b1b1b (bg-parchment)
- */
+
 
 const phases = [
   {
@@ -25,8 +12,8 @@ const phases = [
     tagline: "Building the world in silence.",
     bullets: [
       "Started Coronad over 8 months ago.",
-      "Introduced the Coroverse, our original universe – all organic.",
-      "Built key relays on test‑net locally.",
+      "Introduced the Coroverse, our original universe.",
+      `Built key relics <li> Scoroll of coronation</li> <li> Seal Sto `,
       "Fore‑minted 10+ characters (Amroth, Fëanor, Brogni, Morc).",
       "Gave hints of what we're building — no urgent rush.",
       "Seeded key concepts from the lore (Amroth, Fëanor, Bragn).",
