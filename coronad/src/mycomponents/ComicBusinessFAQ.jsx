@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
-
+import Navbar from "./Navbar";
 
 const phases = [
   {
     icon: "✅", // Completed icon
     title: "1. What is the Coronad Comic Business?",
-
+    subtitle: [""],
     tagline: "xxxxxxxx",
     bullets: [
       "Coronad is creating a new model for comic publishing, one that blends traditional storytelling with NFT ownership and community-powered story evolution. Our comics live inside the Coroverse, a dynamic lore universe where storylines are influenced by relics, traits, and character arcs held by our collectors."
@@ -120,21 +120,20 @@ const fadeVariants = {
 };
 
 export default function ComicBusinessFAQ() {
-  return (
+  return (<>
+    <Navbar/>
     <section className="bg-parchment bg-cover bg-center text-gold py-16 px-6 font-serif">
       {/* Heading */}
-      <div className="max-w-4xl mx-auto text-center mb-12">
+      <div className="max-w-4xl mx-auto text-center m-8 md:m-16">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-5xl font-bold tracking-wide uppercase"
+          className="text-3xl md:text-3xl font-bold tracking-wide uppercase"
         >
           Coronad Comic Business FAQ
         </motion.h1>
-        {/* <p className="text-lg md:text-xl mt-2 text-gray-300">
-          8+ Months of Building. Now We Begin.
-        </p> */}
+       
       </div>
 
       {/* Phases */}
@@ -155,31 +154,32 @@ export default function ComicBusinessFAQ() {
             </span>
 
             {/* Phase Title */}
-            <h2 className="text-xl md:text-2xl font-bold uppercase">
+            <h2 className="text-xl md:text-2xl font-bold uppercas mb-1">
               {phase.title}
               {" "}
               
             </h2>
             {/* Tagline */}
-            <p className="italic text-gray-400 mb-3">
+            <p className="italic text-gray-200 mb-3">
               {phase.tagline}
             </p>
 
             {/* Bullets */}
-            <h4 className="text-lg text-white font-semibold mb-2">
-              {phase.subtitle && phase.subtitle.map((line, i) => (
-                <span key={i} className="block">{line}</span>
-              ))}</h4>    
-            <ul className="list-disc list-inside space-y-1 text-gray-200 text-sm md:text-base">
-              {phase.bullets.map(b => (
-                <li key={b}>{b}</li>
-              ))}
-            </ul>
+            {phase.subtitle && phase.subtitle.map((line,i)=> (  <div key={i} className="mb-2">
+            <h3 key={i} className="text-lg text-white font-semibold">
+              {line}</h3>
+               <ul className="list-disc list-inside text-gray-200 text-sm md:text-base">
+                {console.log(phase.bullets[i])}
+                <li key={i} >{phase.bullets[i]}</li>
+               </ul></div>
+            ))}
+            
           </motion.div>
         ))}
 
         <p>The Coroverse is not static. It's alive and your relics will guide where it grows.You don’t just hold NFTs. You hold the keys to a living comic universe.</p>
       </div>
     </section>
+  </>
   );
 }
