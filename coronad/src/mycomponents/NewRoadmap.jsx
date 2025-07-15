@@ -9,7 +9,7 @@ export default function NewRoadmap() {
       content: (
         <div>
           <p
-            className="mb-8 italic text-lg font-normal text-neutral-800 dark:text-neutral-200">
+            className="mb-8 italic text-lg font-normal text-neutral-200 ">
             Building the universe in silence.
 
           </p>
@@ -42,7 +42,7 @@ export default function NewRoadmap() {
       title: "PHASE 2: THE RISE (Ongoing)",
       content: (
         <div>
-          <p className="mb-8 italic text-lg font-normal text-neutral-800 dark:text-neutral-200">The relics activate. The dreamers feel it.</p>
+          <p className="mb-8 italic text-lg font-normal text-neutral-200">The relics activate. The dreamers feel it.</p>
           <ul className="text-white list-disc pl-4 text-sm md:text-base">
             <li>Eyes of the Dreamer testnet collection launched (66 supply, free mint)</li>
 
@@ -85,7 +85,7 @@ export default function NewRoadmap() {
       title: "PHASE 3: MAINNET LAUNCH (Coming Soon)",
       content: (
         <div>
-          <p className="mb-8 italic text-lg font-normal text-neutral-800 dark:text-neutral-200">The PFP collection that brings the Coroverse to life.</p>
+          <p className="mb-8 italic text-lg font-normal text-neutral-200 ">The PFP collection that brings the Coroverse to life.</p>
           <ul className="text-white list-disc pl-4 text-sm md:text-base">
             <li>Mainnet Coroverse PFP collection launches</li>
 
@@ -118,7 +118,7 @@ export default function NewRoadmap() {
       title: "PHASE 4: COMIC & STORY RELEASE (Post-Mint)",
       content: (
         <div>
-          <p className="mb-8 italic text-lg font-normal text-neutral-800 dark:text-neutral-200">Your NFT enters the story.</p>
+          <p className="mb-8 italic text-lg font-normal text-neutral-200 ">Your NFT enters the story.</p>
           <ul className="text-white list-disc pl-4 text-sm md:text-base">
             <li>Chapter-based comics begin, connected to the NFT collection</li>
 
@@ -151,7 +151,7 @@ export default function NewRoadmap() {
       title: "PHASE 5: EXPANSION (Future)",
       content: (
         <div>
-          <p className="mb-8 italic text-lg font-normal text-neutral-800 dark:text-neutral-200">Beyond NFTs — into full storytelling power.</p>
+          <p className="mb-8 italic text-lg font-normal text-neutral-200 ">Beyond NFTs — into full storytelling power.</p>
           <ul className="text-white list-disc pl-4 text-sm md:text-base">
            <li> Digital Comic Sales and Webtoon platform launches kick off via Web3 platforms or NFT-gated access</li>
 
