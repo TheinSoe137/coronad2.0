@@ -110,7 +110,7 @@ export const HoveredLink = ({
   return (
     <a
       {...rest}
-      className="p-0 flex-1 md:p-2 text-xs md:text-sm text-neutral-200  hover:text-neutral-500 ">
+      className="py-2 flex-1 md:p-2 text-xs md:text-sm text-neutral-200  hover:text-neutral-500 ">
       {children}
     </a>
   );
