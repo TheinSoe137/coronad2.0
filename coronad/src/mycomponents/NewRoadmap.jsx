@@ -1,7 +1,7 @@
 import React from "react";
 import { Timeline } from "../components/ui/timeline";
 import { motion } from "motion/react";
-import Navabar from "./Navbar";
+import Navbar from "./Navbar";
 export default function NewRoadmap() {
   const data = [
     {
@@ -182,7 +182,7 @@ export default function NewRoadmap() {
     },
   ];
   return (<>
-  <Navabar/>
+  <Navbar/>
     <div className="max-w-4xl mx-auto text-center mt-20">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
