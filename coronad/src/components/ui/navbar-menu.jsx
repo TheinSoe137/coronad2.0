@@ -63,8 +63,8 @@ export const Menu = ({
       // resets the state
       onMouseLeave={() => setActive(null)}
       className="text-xs md:text-base
-        relative rounded-lg md:rounded-full border border-transparent dark:bg-black/70 dark:border-white/[0.2]
-        backdrop-blur-md bg-white shadow-input
+        relative rounded-lg md:rounded-full border border-transparent bg-black/70 border-white/[0.2]
+        backdrop-blur-md shadow-input
         flex justify-center text-center
         items-center 
        
